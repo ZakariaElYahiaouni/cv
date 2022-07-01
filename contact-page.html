@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+  </head>
+  <style media="screen">
+    *{
+    font-family: 'Finlandica', sans-serif;
+    }
+    .main-title{
+      color : orange;
+    input[type="checkbox"]:checked {
+      box-shadow: 0 0 0 3px orange;
+    }
+    .text-area{
+      margin-top: 2%;
+    }
+    }
+  </style>
+  <body>
+    <h1 class="main-title">Contact page</h1>
+    <hr>
+    <form action="mailto:z.elyahia@gmail.com" method="post" enctype="text/plain">
+      <label>Name</label>
+      <input type="text" name="yourName" placeholder="your name">
+      <label>Surname</label>
+      <input type="text" name="yourSurname" value="">
+      <br>
+      <label>Email</label>
+      <input type="email" name="yourEmail" value="">
+      <label>Password</label>
+      <input type="password" name="yourPassword"> <input type="checkbox" name="my-checkbox" id="opt-in">
+      <br><br>
+      <h3 class="main-title">give me your opinion</h3>
+      <textarea class="text-area" name="yourOpinion" rows="8" cols="80"></textarea>
+      <br>
+      <input type="submit" name="" value="submit">
+    </form>
+    <script type="text/javascript">
+
+    </script>
+  </body>
+</html>
